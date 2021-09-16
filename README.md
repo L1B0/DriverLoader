@@ -37,6 +37,9 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ServiceGroupOrder
 问题：使用DeleteService删除服务后再次加载驱动，显示该服务已标记为删除。
 解决办法（可能的）：不关闭SCManager handle。
 
+效果图
+![image-20210916114359280](https://i.loli.net/2021/09/16/opUg1CLkATPZdFG.png)
+
 ## 参考资料
 
 https://www.cnblogs.com/cxys/p/4961229.html（有点问题）
