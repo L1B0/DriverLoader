@@ -1,7 +1,8 @@
-# DriverLoader
+# 逆向OsrLoader记录
+
 > reverse OSR Loader and achieve my driver loader by vs2019.
 
-# 逆向OsrLoader记录
+* OSR Loader version: osrloaderv30\Projects\OsrLoader\kit\WNET\AMD64\FRE
 
 ## Motivation
 
