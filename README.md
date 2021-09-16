@@ -7,6 +7,7 @@
 ## Motivation
 
 想知道Stop Service按钮背后发生了什么。
+
 ![2335_1](https://i.loli.net/2021/09/16/OCdr4Q3em2PLFNn.png)
 
 ## 逆向过程
@@ -39,9 +40,10 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ServiceGroupOrder
 解决办法（可能的）：不关闭SCManager handle。
 
 效果图
+
 ![image-20210916114359280](https://i.loli.net/2021/09/16/opUg1CLkATPZdFG.png)
 
 ## 参考资料
 
-https://www.cnblogs.com/cxys/p/4961229.html（有点问题）
+https://www.cnblogs.com/cxys/p/4961229.html （有点问题）
 https://blog.csdn.net/Simon798/article/details/106158122
