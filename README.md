@@ -7,13 +7,13 @@
 ## Motivation
 
 想知道Stop Service按钮背后发生了什么。
-![f99663ff9fa5c715e46add402cc63fbf.png](en-resource://database/2335:1)
+![2335_1](https://i.loli.net/2021/09/16/OCdr4Q3em2PLFNn.png)
 
 ## 逆向过程
 
 1. 定位stop service字符串（不太直接）
 
-![ff2e9ee9be531d3c29ff5199dc6a7e35.png](en-resource://database/2337:1)
+![2337_1 (1)](https://i.loli.net/2021/09/16/OKvtQDjVp9ZyNq8.png) 
 
 2. ida
 
@@ -23,12 +23,13 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ServiceGroupOrder
 
 3. 定位关键函数ControlService
 
-![b3b1101613a4f23d115afff29e604318.png](en-resource://database/2339:0)
+![2339_1 (1)](https://i.loli.net/2021/09/16/vOun8VEjF7N4g2t.png)
 
 根据调用service相关的api，可以找到四个按钮所调用的函数。
-![2666df94fb5931cab98f1bc31eaa15ac.png](en-resource://database/2343:0)
 
-![52f39cbc208c2501bbbae9a10457d99d.png](en-resource://database/2341:0)
+![2343_1](https://i.loli.net/2021/09/16/IjfYSkmDMHw9n5J.png)
+
+![2341_1](https://i.loli.net/2021/09/16/HmDqPRnLgf6p58k.png)
 
 ## 如何实现加载（卸载、开启和停止）驱动的功能
 
